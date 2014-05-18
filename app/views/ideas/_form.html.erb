@@ -12,17 +12,14 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :Projekt %><br>
-    <%= f.text_field :Projekt %>
+    <%= f.label :name, "Jaké jsou vaše zkušenosti?" %><br>
+    <%= f.text_area :name %>
   </div>
   <div class="field">
-    <%= f.label :Popis %><br>
-    <%= f.text_area :Popis %>
+    <%= f.label :description, "Vaše jméno:" %><br>
+    <%= f.text_field :description %>
   </div>
-  <div class="field">
-    <%= f.label :Výsledek %><br>
-    <%= f.file_field :Výsledek %>
-  </div>
+ </div>
   <div class="actions">
     <%= f.submit %>
   </div>
